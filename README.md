@@ -1,5 +1,5 @@
-# $`\textcolor{blue}{\text{Aliens}}`$
-An Alien shooter game, illustrating the implementation of 'pygame'.
+# $`\textcolor{blue}{\text{Visualizations}}`$
+A set of scripts and files illustrating data visualization techniques.
 Richard Ay (February 2024, *updated February 2024*)
 
 ## $`\textcolor{blue}{\text{Table of Contents}}`$
@@ -13,20 +13,29 @@ Richard Ay (February 2024, *updated February 2024*)
 
 ## Setup
 
-*To use this program, activate the 'virtual environment' "AlienEnv".  
+*To use this program, activate the 'virtual environment' "VisualEnv".  
 
 ## Environment
-A virtual environment is created so that the installation of PyGame remains
-local to this subdirectory, and does not affect the rest of the machine.
+A virtual environment is created so that the installation of matplotlib and plotly
+remain local to this subdirectory, and do not affect the rest of the machine.
 
 The virtual environment can be setup using the command: 
-**'python -m venv "AlienEnv" --upgrade-deps --prompt="AlienEnv"'**
+**'python -m venv "VisualEnv" --upgrade-deps --prompt="VisualEnv"'**
 
-To start/stop the virtual environment, use the commands: **'AlienEnv\scripts\activate'** or **'deactivate'**. Once activated, the virtual environment will change the (terminal) prompt from (PS) to (AlienEnv).
+To start/stop the virtual environment, use the commands: **'VisualEnv\scripts\activate'** 
+or **'deactivate'**. Once activated, the virtual environment will change the (terminal) 
+prompt from (PS) to (VisualnEnv).
 
-After starting the virtual environment, PyGame can be installed with the command:  
-**'python -m pip install pygame'**.  Subsequently the installation can be verified with the command: 
-**'python -m pip show pygame'**. 
+After starting the virtual environment, matplotlib and plotly (and pandas) can be installed 
+with the commands:  
+**'python -m pip install matplotlib'**  
+**'python -m pip install plotly'**  
+**'python -m pip install pandas'**  
+
+Subsequently the installations can be verified with the command: 
+**'python -m pip show matplotlib'**  
+**'python -m pip show plotly'**  
+**'python -m pip show pandas'** 
 
 
 ## Usage
