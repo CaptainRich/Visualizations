@@ -39,9 +39,8 @@ Subsequently the installations can be verified with the command:
 
 
 ## Usage
-From VSCode, by issuing the command 'python directory-scan.py' in the Terminal window. For VS Code it is important to change the Terminal from "Git Bash" to "Power Shell". Once in Power Shell, the command "python aliens.py" will run the file with the game screen displayed.  Note the suffix ".py" is required.
-
-The Alien ship can be moved left/right using the keyboard 'arrow' keys.  The game can be stopped by pressing 'q', or the 'X" in the upper right of the window frame.
+From VSCode, by issuing the commands (note the suffix ".py' is required)  
+- 'python squares_plot.py'    
 
 
 ## References
@@ -49,27 +48,19 @@ The Alien ship can be moved left/right using the keyboard 'arrow' keys.  The gam
 
 
 ## File List
-**aliens.py** - the main game file, invoked to play the game.  
-**bullet.py** - a class module controlling the firing of bullets.   
-**button.py** - a class module to implement a 'play' button for the game.   
-**crash.py**  - a class to play a crash sound when a defender's ship is destroyed.  
-**game_stats.py** - a class module to track game statistics.  
-**scoreboard.py** - a class to manage and display the game score components.    
-**settings.py** - a class module managing the game settings.  
-**ship.py** - a class module managing the defending ship setup, drawing, and movement.  
-**ufos.py** - a class module managing the alien ships (ufos).  
-**ufo_destroyed.py** - a class to play a sound when a UFO is destroyed.  
+**random_walk_plot.py** - the main game file, invoked to play the game.  
+**random_walk.py** - a class module controlling the firing of bullets.   
+**scatter_plot.py** - a class module to implement a 'play' button for the game.   
+**squares_plot.py**  - a class to play a crash sound when a defender's ship is destroyed.  
+
 
 **/images** - a subdirectory with game images  
 
-**crash.wav** - the sound file for destroying a defending ship.  
-**ufo_destory.wave** - the sound file for destroying a UFO.    
 
 ## Technologies and Imports
 The following modules are necessary imports (imported in the .py files):  
-- pygame  
-- sys
-- time  
+- matplotlib 
+ 
 
 ## Images
 The image below shows a sample game screen:  

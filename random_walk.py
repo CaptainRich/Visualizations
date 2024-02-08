@@ -1,4 +1,4 @@
-""" A script illustrating random-walk data with plotting. """
+""" A script illustrating the generation of random-walk data. """
 
 from random import choice
 
@@ -23,11 +23,11 @@ class RandomWalk:
 
             # Decide which direction to go, and how far to go.
             x_direction = choice( [-1, 1] )
-            x_distance  = choice( [0, 1, 2, 3, 4] )
+            x_distance  = choice( [0, 1, 2, 3, 4, 5, 6] )
             x_step      = x_direction * x_distance
 
             y_direction = choice( [-1, 1] )
-            y_distance  = choice( [0, 1, 2, 3, 4] )
+            y_distance  = choice( [0, 1, 2, 3, 4, 5, 6] )
             y_step      = y_direction * y_distance      
 
             # Determine the new position (add the movement to the last position).
