@@ -1,4 +1,4 @@
-""" A simple plot of squared numbers. """
+""" A simple scatter plot of squared numbers. """
 
 import matplotlib.pyplot as plt
 
