@@ -2,10 +2,13 @@
 
 import matplotlib.pyplot as plt
 
+inputs  = [ 1, 2, 3, 4, 5, 6 ]
 squares = [ 1, 4, 9, 16, 25, 36 ]
 
+# Try a built-in style. (The code 'plt.style.available' will list the styles.)
+plt.style.use( 'seaborn-v0_8' )
 fig, ax = plt.subplots()
-ax.plot( squares, linewidth=3 )  # Plotting 'squares' with increased line thickness
+ax.plot( inputs, squares, linewidth=3 )  # Plotting 'squares' with increased line thickness
 
 # Set the chart title and axes labels.
 ax.set_title( "Squared Numbers", fontsize=24 )
