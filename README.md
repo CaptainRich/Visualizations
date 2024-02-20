@@ -50,6 +50,8 @@ From VSCode, by issuing the commands (note the suffix ".py' is required)
 
 
 ## File List
+**die.py** - a script to manage the "dice" class.  
+**die_visual.py** - a script to roll dice and display the results.  
 **random_walk_plot.py** - the script to product the 'random-walk' images.  
 **random_walk.py** - a class module that creates the data points for random-walk_plot.   
 **scatter_plot.py** - a script that generates a scatter plot of squared numbers.   
