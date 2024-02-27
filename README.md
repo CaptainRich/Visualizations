@@ -47,7 +47,7 @@ From VSCode, by issuing the commands (note the suffix ".py' is required)
 
 
 ## References
-1. Python Crash Course, Eric Matthes, No Starch Press, 2023. Chapters 12-14.  
+1. Python Crash Course, Eric Matthes, No Starch Press, 2023. Chapters 12-15.  
 
 
 ## File List
