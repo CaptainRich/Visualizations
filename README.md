@@ -42,7 +42,8 @@ Subsequently the installations can be verified with the command:
 From VSCode, by issuing the commands (note the suffix ".py' is required)  
 - 'python squares_plot.py'  
 - 'python scatter_plot.py'  
-- 'random_walk_plot.py'  
+- 'python random_walk_plot.py'   
+- 'python die_visual.py'  
 
 
 ## References
