@@ -32,7 +32,7 @@ with the commands:
 **'python -m pip install plotly'**  
 **'python -m pip install pandas'**  
 
-Subsequently the installations can be verified with the command: 
+Subsequently the installations can be verified with the command:   
 **'python -m pip show matplotlib'**  
 **'python -m pip show plotly'**  
 **'python -m pip show pandas'** 
