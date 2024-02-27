@@ -64,6 +64,8 @@ From VSCode, by issuing the commands (note the suffix ".py' is required)
 ## Technologies and Imports
 The following modules are necessary imports (imported in the .py files):  
 - matplotlib  
+- plotly
+- pandas
  
 
 ## Images
@@ -77,4 +79,9 @@ The 'scatter' plot:
 
 The 'random walk' plot:  
 ![Random Walk Plot](https://github.com/CaptainRich/Visualizations/blob/main/images/random_walk.png)  
+
+The 'die roll' plot:  
+![Die Roll Plot](https://github.com/CaptainRich/Visualizations/blob/main/images/die_roll_results.png)  
+
+
 
